@@ -1,0 +1,24 @@
+Dados de entrada:
+
+Selecionar os livros que o user deseja comprar
+Indicar o preço que usuário deseja
+Pedir o e-mail do user para enviar uma mensagem quando o livro estiver abaixo do preço estipulado
+
+
+
+Etapas da solução do problema:
+
+Obter o catálogo de todos os livros de romance no site https://books.toscrape.com/
+Registrar o preço de  todos os livros de romance catalogados
+Separar cada livro que foi solicitado pelo user para podermos analisar o produto e suas variações de preço
+Analisar a meta de preço para quando o preço estiver abaixo da meta, enviar um e-mail para o user com dados do livro, o preço meta que atingiu, seu respectivo preço atual e o percentual de desconto em relação ao preço meta.
+
+
+Tarefas para serem padronizadas:
+Cálculo do percentual
+Análise dos livros
+Envio de e-mails
+Registrar o preço
+
+
+Abstrações:
